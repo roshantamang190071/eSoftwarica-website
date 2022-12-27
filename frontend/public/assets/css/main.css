@@ -1,0 +1,310 @@
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+
+.content-section {
+  background: #ffffff;
+  margin-top: 75px;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+/*custom*/
+.post-img {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.like-comment {
+  border-top: 1px solid #dddddd;
+}
+
+
+
+.all-comments {
+  margin-top: 5px;
+}
+.comment-section {
+  border-top: 1px solid;
+}
+
+.input--style-5 {
+  background: #eeeeee;
+  line-height: 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+.select--no-search .select2-search {
+  display: none !important;
+}
+
+.btn-custom1 {
+  margin-top: 70px;
+}
+
+.content-section1 {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.btn-custom2 {
+  margin-top: 20px;
+}
+
+.btn-custom3 {
+  margin-top: 20px;
+  color: red;
+}
+
+.date {
+  font-size: 11px;
+}
+
+.comment-text {
+  font-size: 12px;
+}
+
+.fs-16 {
+  font-size: 14px;
+}
+
+.shadow-none {
+  box-shadow: none;
+}
+
+.name {
+  color: #007bff;
+}
+
+.cursor:hover {
+  color: blue;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.cursor :active cursor:focus {
+  color: blue;
+}
+
+.textarea {
+  resize: none;
+}
+
+
+/* faqs */
+.Faq{
+  margin-top: 70px;
+}
+
+/* logout */
+.logout{
+  margin-top: 70px;
+}
+
+.rpcon {
+  margin-top: 75px;
+}
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+
+.body1{
+  background: #353b48;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body2{
+  background: #3b3b3b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.social-buttons a{
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 18px;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 8px;
+}
+
+.social-buttons a::before{
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(45deg,#22a6b3,#30336b);
+  border-radius: 50%;
+  z-index: -1;
+  transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover::before{
+  transform: scale(0);
+}
+
+.social-buttons a i{
+  transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover i{
+  background: linear-gradient(45deg,#22a6b3,#30336b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(2.2);
+}
+
+
+
+/* footer */
+
+#footer {
+  background: #5f788a;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px
+}
+
+#footer .footer-top {
+  background: #3b3b3b;
+  border-top: 1px solid #474747;
+  border-bottom: 1px solid #474747;
+  padding: 5px 0 5px 0
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 10px
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 10px
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 10px
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff
+}
